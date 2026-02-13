@@ -176,3 +176,5 @@ If `frontend/dist` exists, the backend serves it automatically and supports SPA 
 
 - Device API auth uses `Authorization: Bearer <DEVICE_SECRET>`.
 - For multiple frontend origins, set `CORS_ORIGIN` as a comma-separated list.
+
+## PS: Detailed documentation lives in [backend/README.md](backend/README.md) and [frontend/README.md](frontend/README.md).
