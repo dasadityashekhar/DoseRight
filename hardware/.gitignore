@@ -1,0 +1,78 @@
+# Build artifacts
+/build/
+/build*/
+
+# ESP-IDF generated files
+/sdkconfig
+/sdkconfig.old
+/sdkconfig.*
+/sdkconfig.defaults
+
+# NVS partitions and generated binaries
+/*.bin
+/*.elf
+/*.map
+/*.hex
+/*.uf2
+/*.img
+/*.zip
+
+# Logs and debug output
+/log/
+/*.log
+/gdbinit/
+
+# Local environment files
+*.env
+.env.*
+
+# Secrets, keys, and certificates
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+*.der
+*.jks
+*.keystore
+*.asc
+
+# Core dumps and crash reports
+core.*
+*.core
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.bak
+.vscode/
+.idea/
+*.code-workspace
+
+# Python caches (if any tooling uses Python)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Node tooling (if any)
+node_modules/
+
+# Dependency manager caches
+managed_components/**/build/
+managed_components/**/dist/
+/managed_components/
+
+# ESP-IDF tooling caches
+.cmake/
+compile_commands.json
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Local CSV/test data
+/dose.csv
+/hardcode.txt

@@ -1,0 +1,25 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "ui/ui.c"
+        "ui/custom/wifi_list_screen.c"
+        "ui/custom/main_menu_screen.c"
+        "ui/custom/help_screen.c"
+        "ui/custom/settings_screen.c"
+        "ui/custom/profile_screen.c"
+        "ui/custom/alert_screen.c"
+        "ui/custom/alert_audio.c"
+        "ui/ui_helpers.c"
+        "ui/images/ui_img_imagesbottle_png.c"
+        "ui/screens/ui_Screen1.c"
+        "ui/screens/ui_Screen2.c"
+        "ui/screens/ui_Screen3.c"
+        "ui/screens/ui_Screen4.c"
+        "ui/screens/ui_WifiScreen.c"
+
+    INCLUDE_DIRS
+        "."
+        "ui"
+        "ui/screens"
+        "ui/custom"
+)
